@@ -32,5 +32,7 @@ ENTRYPOINT [ "sh", "-c", "exec beacon-chain \
   --grpc-gateway-host 0.0.0.0 \
   --monitoring-host 0.0.0.0 \
   --http-web3provider=$HTTP_WEB3PROVIDER \
+  --grpc-gateway-port 3500 \
+  --grpc-gateway-corsdomain http://prysm-medalla-validator.dappnode \
   --accept-terms-of-use \
   $EXTRA_OPTS" ]
