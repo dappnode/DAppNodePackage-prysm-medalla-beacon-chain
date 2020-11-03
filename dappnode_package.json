@@ -1,13 +1,16 @@
 {
   "name": "prysm-medalla-beacon-chain.dnp.dappnode.eth",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "upstreamVersion": "v1.0.0-beta.1",
   "upstreamRepo": "prysmaticlabs/prysm",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "Prysm Medalla ETH2.0 Beacon chain",
   "description": "Prysm: a Go implementation of the Ethereum 2.0 Serenity protocol and open source project created by Prysmatic Labs. Beacon node which powers the beacon chain at the core of Ethereum 2.0",
   "type": "service",
-  "architectures": ["linux/amd64", "linux/arm64"],
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
@@ -23,7 +26,9 @@
   "requirements": {
     "minimumDappnodeVersion": "0.2.20"
   },
-  "categories": ["Blockchain"],
+  "categories": [
+    "Blockchain"
+  ],
   "links": {
     "homepage": "https://prylabs.net/participate?node=dappnode",
     "readme": "https://github.com/dappnode/DAppNodePackage-prysm-medalla-beacon-chain",
