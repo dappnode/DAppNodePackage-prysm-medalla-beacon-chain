@@ -13,7 +13,8 @@ services:
       - "12000"
     restart: always
     environment:
-      - "HTTP_WEB3PROVIDER=http://goerli-geth.dappnode:8545"
-      - EXTRA_OPTS
+      HTTP_WEB3PROVIDER: 'http://goerli-geth.dappnode:8545'
+      EXTRA_OPTS: ''
+      GRPC_GATEWAY_CORSDOMAIN: 'http://prysm-medalla-validator.dappnode'
 volumes:
   data: {}
