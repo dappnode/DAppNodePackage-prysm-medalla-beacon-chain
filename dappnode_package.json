@@ -1,6 +1,6 @@
 {
   "name": "prysm-medalla-beacon-chain.dnp.dappnode.eth",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "upstreamVersion": "v1.0.0-beta.2",
   "upstreamRepo": "prysmaticlabs/prysm",
   "upstreamArg": "UPSTREAM_VERSION",
